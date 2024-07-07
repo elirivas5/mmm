@@ -1,0 +1,97 @@
+.comment-section {
+  width: 60%;
+  margin: 0 auto;
+  font-family: Arial, sans-serif;
+}
+
+.comment {
+  border-bottom: 1px solid #e1e1e1;
+  padding: 20px 0;
+  display: flex;
+  flex-direction: column;
+}
+.comment-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.author {
+  font-weight: bold;
+}
+
+.time {
+  color: #999;
+  margin-left: auto;
+}
+
+.comment-actions {
+  display: flex;
+  gap: 10px;
+}
+
+.action-btn {
+  background: none;
+  border: none;
+  color: #007bff;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.action-btn svg {
+  margin-right: 5px;
+}
+
+.action-btn:hover {
+  text-decoration: underline;
+}
+.comment-body {
+  margin-top: 10px;
+}
+
+.likes {
+  display: flex;
+  align-items: center;
+  color: #999;
+  font-size: 0.9em;
+}
+
+.like-icon {
+  fill: #999;
+  margin-right: 5px;
+}
+.reply-form {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.reply-form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #e1e1e1;
+  border-radius: 4px;
+  resize: none;
+}
+
+.send-btn {
+  margin-top: 5px;
+  padding: 5px 10px;
+  background-color: #007bff;
+  border: none;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.send-btn:hover {
+  background-color: #0056b3;
+}
