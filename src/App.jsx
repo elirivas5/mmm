@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
-import avatar1 from './path/to/avatar1.png';
-import avatar2 from './path/to/avatar2.png';
-import avatar3 from './path/to/avatar3.png';
-import avatar4 from './path/to/avatar4.png';
+import avatar1 from "./assets/avatars/image-amyrobson.png"
+import avatar2 from "./assets/avatars/image-juliusomo.png"
+import avatar3 from "./assets/avatars/image-maxblagun.png"
+import avatar4 from "./assets/avatars/image-ramsesmiron.png"
 
 const CommentSection = () => {
   const [replies, setReplies] = useState([
